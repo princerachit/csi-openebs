@@ -18,7 +18,6 @@ func (s *service) GetPluginInfo(
 	ctx context.Context,
 	req *csi.GetPluginInfoRequest) (
 	*csi.GetPluginInfoResponse, error) {
-
 	return nil, nil
 }
 
